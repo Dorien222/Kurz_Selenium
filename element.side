@@ -1,0 +1,65 @@
+{
+  "id": "72f0da17-153e-42e7-86ab-ee3cf708dfb6",
+  "version": "2.0",
+  "name": "element",
+  "url": "https://sk-sk.facebook.com/",
+  "tests": [{
+    "id": "43e78221-e64d-4b60-bd51-4efaf840e800",
+    "name": "Untitled",
+    "commands": [{
+      "id": "d3fb1f4a-012d-4197-af99-105afa938866",
+      "comment": "",
+      "command": "open",
+      "target": "https://sk-sk.facebook.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4dfb84d3-9c8c-4e39-bf69-b9b89d459353",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.ChapterSegment_module_chapterWrapper__d4d891b5:nth-child(6) .ChapterSegment_module_loaded__d4d891b5",
+      "targets": [
+        ["css=.ChapterSegment_module_chapterWrapper__d4d891b5:nth-child(6) .ChapterSegment_module_loaded__d4d891b5", "css:finder"],
+        ["xpath=//div[@id='player']/div[7]/div[6]/div[2]/div/div/div/div[2]/div[6]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[6]/div/div", "xpath:position"]
+      ],
+      "value": "3000"
+    }, {
+      "id": "171c202c-07b6-42e0-880d-462a05c54a54",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk/sk/titulna-stranka",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44c652b6-3555-4980-a43c-f3d479e5dbb2",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=#logo > img",
+      "targets": [
+        ["css=#logo > img", "css:finder"],
+        ["xpath=//img[@alt='Ústredný portál verejných služieb ľuďom']", "xpath:img"],
+        ["xpath=//a[@id='logo']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "77e609f6-54c2-46c0-89b6-fa671194cc44",
+      "comment": "",
+      "command": "echo",
+      "target": "Test uspesny",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bc15586c-7300-458c-8e15-c83dba7b6051",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["43e78221-e64d-4b60-bd51-4efaf840e800"]
+  }],
+  "urls": ["https://sk-sk.facebook.com/"],
+  "plugins": []
+}
